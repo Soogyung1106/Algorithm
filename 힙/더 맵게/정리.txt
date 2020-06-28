@@ -1,0 +1,11 @@
+1. 벡터의 erase 함수 사용하면 시간초과 뜸. 
+2. 우선순위 큐 priority_queue 라이브러리 사용해야 함.
+3. 우선순위 큐 오름차순 정렬
+
+
+<우선순위 큐> 
+사용방법 참고 사이트 -> https://travelbeeee.tistory.com/126 
+
+<벡터>
+사용방법 참고 사이트 -> https://twpower.github.io/77-how-to-use-vector-in-cpp
+
