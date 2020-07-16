@@ -1,0 +1,5 @@
+Vector 라이브러리 - https://twpower.github.io/77-how-to-use-vector-in-cpp
+(힙 유형) Priority_Queue 라이브러리 - https://travelbeeee.tistory.com/126
+(해시맵 유형) unordered_map 라이브러리 - https://umbum.tistory.com/744
+algorithm 라이브러리 - sort 
+string 라이브러리 - find( ) 함수
