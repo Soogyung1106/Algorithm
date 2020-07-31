@@ -19,7 +19,7 @@ bool check(int interval){
     
   if(sum >= S) return true;
   
-  //2번째 구간부터 검사 
+  //2번째 구간부터 검사(하나씩 칸 옮겨가면서 sum 구하기) 
   for(int i=0;i<n-interval;i++){
     sum = sum-data[i]+data[i+interval];
     
@@ -46,13 +46,13 @@ int main() {
   int start = 1; int end =n;//start는 무조건 x를 가리킴, end는 무조건 0을 가리킴
   
   //구간1이 될 경우
-  if(check(1)){
+  if(check(1)){ //이게 아니라면 구간 1일 때 x 
     printf("1"); 
     return 0;
   } 
   
   //어떤 구간도 안 될 경우
-  if(!check(n)){
+  if(!check(n)){ //이게 아니라면 구간 n일 때 o
     printf("-1"); 
     return 0;
   }

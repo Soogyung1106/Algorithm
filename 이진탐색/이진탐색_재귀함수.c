@@ -4,8 +4,8 @@
 int binarySearch(int arr[], int start, int end, int value){
   //arr의 start부터 end까지의 값들 중 value가 존재한다면 그 위치를 반환하고, 
   //없다면 -1을 반환하는 함수
-  
-  //기저조건: 숫자가 아예 없는 경우, 숫자가 1개 있는 경우 
+  //기저조건: 숫자가 아예 없는 경우, 숫자가
+   1개 있는 경우 
   if(start>end){
     return -1;
   }else if(start == end){
