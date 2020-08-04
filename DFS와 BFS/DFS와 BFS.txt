@@ -3,19 +3,21 @@
 <DFS: 깊이 우선 탐색> 
 - 루트 노드(혹은 다른 임의의 노드)에서 시작해서 다음 분기(branch)로 넘어가기 전에 
 해당 분기를 완벽하게 탐색하는 방법
-- 구현 방법: 스택과 재귀함수 사용
+- 구현 방법: 스택 또는 재귀함수로 구현
+
 
 (특징)
 - 깊이 우선 탐색(DFS)이 너비 우선 탐색(BFS)보다 좀 더 간단하다.
 - 단순 검색 속도 자체는 너비 우선 탐색(BFS)에 비해서 느리다.
 - 응용가능한 예제: 미로찾기
 
-[dfs 구현 출처]
-https://hongku.tistory.com/157 
+[출처]
+https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp
 
 
 <BFS: 너비 우선 탐색>
 - 현재 정점에서 갈 수 있는 점들까지 들어가면서 탐색
-- 구현 방법: 큐
+- 구현 방법: 큐로만 구현 가능
 
-[bfs 구현 출처]
+[출처]
+https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp

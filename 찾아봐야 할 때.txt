@@ -1,0 +1,18 @@
+<라이브러리 사용법>
+▶ vector 라이브러리 -> https://twpower.github.io/77-how-to-use-vector-in-cpp
+▶ (힙 유형) Priority_Queue 라이브러리 -> https://travelbeeee.tistory.com/126
+▶ (해시맵 유형) unordered_map 라이브러리 -> https://umbum.tistory.com/744
+▶ (큐) queue 라이브러리 -> https://travelbeeee.tistory.com/7
+
+
+<함수 사용법>
+▶ sort() 함수 → algorithm 라이브러리 
+▶ find( ) 함수 → string 라이브러리
+▶ 최대, 최소 값 혹은 주소 구하기 : max_element(), min_element() → algorithm 라이브러리
+https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
+
+<헷갈리는 문법>
+▶ 2차원 벡터 사용법 -> https://leeeegun.tistory.com/3
+▶ C++ 동적할당 -> https://boycoding.tistory.com/205
+
+
