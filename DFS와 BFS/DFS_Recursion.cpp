@@ -7,8 +7,9 @@ using namespace std;
 
 void dfs(int start, vector<int> graph[], bool visited[]) {
 	// graph 에서 start 노드부터 깊이 우선으로 탐색
+	// 최상단 노드부터 start
 
-	//방문 후 출력 
+	//방문 후 출력   
 	visited[start] = true; printf("%d ", start); 
 	
 	for (int i = 0; i < graph[start].size(); i++) {
