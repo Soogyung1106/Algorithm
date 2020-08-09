@@ -32,8 +32,6 @@ void bfs(int start, vector<int> graph[], bool check[]) {
 
 		}
 
-
-
 	}
 
 
