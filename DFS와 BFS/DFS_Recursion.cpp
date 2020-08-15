@@ -32,13 +32,13 @@ int main() {
 	int node, edge, start;
 	cin >> node >> edge >> start;
 
-	//그래프 생성
+	//그래프 생성(연결리스트 사용)
 	vector<int>* graph = new vector<int>[node + 1];
 	
 	for (int i = 0; i < edge; i++) {
 		int u, v;
 		cin >> u >> v;
-
+		
 		graph[u].push_back(v);
 		graph[v].push_back(u);
 	}
@@ -50,7 +50,7 @@ int main() {
 	
 
 	//dfs로 탐색 
-	bool* visited = new bool[node + 1]; fill(visited, visited + node + 1, false);
+	bool* visited = new bool[node + 1];  fill(visited, visited + node + 1, false);
 
 	dfs(start, graph, visited);
 	printf("\n");

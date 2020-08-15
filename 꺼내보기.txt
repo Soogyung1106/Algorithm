@@ -6,10 +6,13 @@
 ▶ (Pair 클래스) utility 라이브러리 → https://blockdmask.tistory.com/64 
 
 <함수 사용법>
-▶ sort() 함수 → algorithm 라이브러리 
-▶ find( ) 함수 → string 라이브러리
-▶ max_element(), min_element() → algorithm 라이브러리 : 최대, 최소 값 혹은 주소 구하기
-https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
+▶ sort() 함수 ☞ algorithm 라이브러리 
+▶ fill() 함수 ☞ algorithm 라이브러리
+▶ max_element(), min_element() ☞ algorithm 라이브러리 : 최대, 최소 값 혹은 주소 구하기
+출처: https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
+▶ find( ) 함수 ☞ string 라이브러리
+출처: https://twpower.github.io/121-usage-of-fill-function
+
 
 <헷갈리는 문법>
 ▶ 2차원 벡터 사용법 → https://leeeegun.tistory.com/3
