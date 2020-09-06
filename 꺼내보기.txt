@@ -10,7 +10,7 @@
 ▶ fill() 함수 ☞ algorithm 라이브러리
 ▶ max_element(), min_element() ☞ algorithm 라이브러리 : 최대, 최소 값 혹은 주소 구하기
 출처: https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
-▶ min() 함수 ☞ 
+▶ min() 함수 ☞ https://m.blog.naver.com/kks227/220246545025
 ▶ find( ) 함수 ☞ string 라이브러리
 출처: https://twpower.github.io/121-usage-of-fill-function
 
