@@ -19,9 +19,7 @@ void dfs(int start, vector<int> graph[], bool visited[]) {
 		if (visited[next] == false) {
 			dfs(next, graph, visited); ////재귀함수를 호출 
 		}
-
 	}
-
 
 }
 
