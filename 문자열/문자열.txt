@@ -32,4 +32,5 @@ C++ <string> -> stoi() 인자로 string 자료형이 들어감
 C <string.h> -> atoi() 인자로 char형 배열이 들어감
 C, C++ -> char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
 
-
+★ 큰 수 만들기 참고 사이트
+https://sihyungyou.github.io/programmers-%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98/

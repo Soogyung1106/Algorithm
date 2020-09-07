@@ -24,6 +24,7 @@ https://blockdmask.tistory.com/333
 https://rottk.tistory.com/entry/C-String
 ▶ next_permutation() 함수: 순열 구해줌. ☞ algorithm 라이브러리
 https://twpower.github.io/82-next_permutation-and-prev_permutation
+▶ sort( ) 함수에서 compare함수를 인자로 ☞ https://leeeegun.tistory.com/5
 
 
 <헷갈리는 문법>
