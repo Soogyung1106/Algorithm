@@ -4,9 +4,13 @@
 ▶ (해시맵 유형) unordered_map 라이브러리 → https://umbum.tistory.com/744
 ▶ (큐) queue 라이브러리 → https://travelbeeee.tistory.com/7
 ▶ (Pair 클래스) utility 라이브러리 → https://blockdmask.tistory.com/64 
+▶ (문자열 유형)string 라이브러리 사용법 ☞ https://rottk.tistory.com/entry/C-String
+				   ☞ https://jhnyang.tistory.com/115
+				   ☞ https://blockdmask.tistory.com/338
 
-<함수 사용법>
+<자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 
+▶ sort( ) 함수에서 compare함수를 인자로 ☞ https://leeeegun.tistory.com/5
 ▶ fill() 함수 ☞ algorithm 라이브러리
 출처: https://twpower.github.io/121-usage-of-fill-function
 //주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
@@ -15,7 +19,7 @@
 ▶ min() 함수 ☞ https://m.blog.naver.com/kks227/220246545025 
 // 주의사항 인자 2개만 비교 가능
 ▶ find( ) 함수 ☞ string 라이브러리
-출처: https://twpower.github.io/121-usage-of-fill-function
+출처: https://modoocode.com/241
 ▶ to_string() 함수 : int to string ☞ string 라이브러리 
 https://blockdmask.tistory.com/334
 ▶ stoi( ) 함수 : string to int  ☞ string 라이브러리 
@@ -24,7 +28,7 @@ https://blockdmask.tistory.com/333
 https://rottk.tistory.com/entry/C-String
 ▶ next_permutation() 함수: 순열 구해줌. ☞ algorithm 라이브러리
 https://twpower.github.io/82-next_permutation-and-prev_permutation
-▶ sort( ) 함수에서 compare함수를 인자로 ☞ https://leeeegun.tistory.com/5
+
 
 
 <헷갈리는 문법>
