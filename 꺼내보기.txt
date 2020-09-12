@@ -14,21 +14,31 @@
 ▶ fill() 함수 ☞ algorithm 라이브러리
 출처: https://twpower.github.io/121-usage-of-fill-function
 //주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
+
+
+<문자열> ★string 라이브러리★
+▶ to_string() 함수 : int to string 
+https://blockdmask.tistory.com/334
+▶ stoi( ) 함수 : string to int  
+https://blockdmask.tistory.com/333
+▶ string 문자의 원소를 정수로 변환 ☞ int num = str[i] - '0';
+▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
+☞ https://m.blog.naver.com/PostView.nhn?blogId=kimjd921&logNo=40198075816&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+▶ append( ) 함수: string 합치기 ☞ string 라이브러리 
+https://rottk.tistory.com/entry/C-String
+▶ find( ) 함수 ☞ https://modoocode.com/241
+
+▶tolower( ) 함수, toupper( ) 함수: 문자열의 대문자 소문자 변환 
+
+<수학>
+▶ next_permutation() 함수: n개 모두 서로 다를 경우에만 정확한 순열을 구해줌. ☞ algorithm 라이브러리
+https://twpower.github.io/82-next_permutation-and-prev_permutation
+▶ pow( ) 함수,  sqrt( ) 함수 ☞ cmath 라이브러리 
+https://blockdmask.tistory.com/307
 ▶ max_element(), min_element() ☞ algorithm 라이브러리 : 최대, 최소 값 혹은 주소 구하기
 출처: https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
 ▶ min() 함수 ☞ https://m.blog.naver.com/kks227/220246545025 
 // 주의사항 인자 2개만 비교 가능
-▶ find( ) 함수 ☞ string 라이브러리
-출처: https://modoocode.com/241
-▶ to_string() 함수 : int to string ☞ string 라이브러리 
-https://blockdmask.tistory.com/334
-▶ stoi( ) 함수 : string to int  ☞ string 라이브러리 
-https://blockdmask.tistory.com/333
-▶ append( ) 함수: string 합치기 ☞ string 라이브러리 
-https://rottk.tistory.com/entry/C-String
-▶ next_permutation() 함수: 순열 구해줌. ☞ algorithm 라이브러리
-https://twpower.github.io/82-next_permutation-and-prev_permutation
-
 
 
 <헷갈리는 문법>
