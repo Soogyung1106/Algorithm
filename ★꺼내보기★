@@ -10,7 +10,7 @@
 
 <자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 
-▶ sort( ) 함수에서 compare함수를 인자로, greater<int>(), less<int>() ☞ https://blockdmask.tistory.com/178
+▶ sort( ) 함수에서 compare함수, greater<int>(), less<int>() ☞ https://blockdmask.tistory.com/178
 ▶ fill() 함수 ☞ algorithm 라이브러리
 출처: https://twpower.github.io/121-usage-of-fill-function
 //주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
@@ -30,6 +30,11 @@ https://rottk.tistory.com/entry/C-String
 ▶ find( ) 함수 ☞ https://modoocode.com/241
 ▶tolower( ) 함수, toupper( ) 함수: 문자열의 대문자 소문자 변환 
 
+<해시맵> ★unordered_map 라이브러리★
+
+▶ count( ) 함수
+
+
 <수학>
 ▶ next_permutation() 함수: n개 모두 서로 다를 경우에만 정확한 순열을 구해줌. ☞ algorithm 라이브러리
 https://twpower.github.io/82-next_permutation-and-prev_permutation
@@ -39,7 +44,6 @@ https://blockdmask.tistory.com/307
 출처: https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=220246803499&proxyReferer=https:%2F%2Fwww.google.com%2F 
 ▶ min() 함수 ☞ https://m.blog.naver.com/kks227/220246545025 
 // 주의사항 인자 2개만 비교 가능
-
 
 <헷갈리는 문법>
 ▶ 2차원 벡터 사용법 → https://leeeegun.tistory.com/3

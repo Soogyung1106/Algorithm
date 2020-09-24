@@ -1,6 +1,6 @@
 <해시맵(→ unordered_map)>
 
-맵의 특징: 중복된 키(key) 존재하지 X 
+★맵의 특징: 중복된 키(key) 존재하지 X ★
 
 (1) 맵(map)과 해시맵(unordered_map)의 차이점
 ☞ 두 STL은 구현방법이 다름.
@@ -15,4 +15,16 @@
 
 (3) 사용법 
 
-https://math-coding.tistory.com/m/31
+☞ find 
+☞ v.count(키): 키에 해당하는 값이 있는지 확인...따라서 1개 또는 0개
+
+- 해시맵에서의 경우의 수 -> 옷 4종류 중에 1가지 종류, 2가지 종류, 3가지 종류, 4가지 종류 
+		       -> 모든 경우의 수 = 각 case + 1(안 입을 경우)의  모두 곱 
+
+- 해시맵의 for문으로 접근할 때 자료형?  
+☞ auto 
+for(auto ptr = map.begin(); ptr != map.end(); ptr++)    
+        answer *= (ptr->second + 1); 
+
+
+출처: https://math-coding.tistory.com/m/31
