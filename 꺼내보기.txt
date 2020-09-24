@@ -27,7 +27,6 @@ https://blockdmask.tistory.com/333
 ▶ append( ) 함수: string 합치기 ☞ string 라이브러리 
 https://rottk.tistory.com/entry/C-String
 ▶ find( ) 함수 ☞ https://modoocode.com/241
-
 ▶tolower( ) 함수, toupper( ) 함수: 문자열의 대문자 소문자 변환 
 
 <수학>
