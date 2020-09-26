@@ -14,6 +14,7 @@
 ▶ fill() 함수 ☞ algorithm 라이브러리
 출처: https://twpower.github.io/121-usage-of-fill-function
 //주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
+▶ begin(), end() 함수 ☞ vector 라이브러리
 
 
 <문자열> ★string 라이브러리★
@@ -31,9 +32,15 @@ https://rottk.tistory.com/entry/C-String
 ▶tolower( ) 함수, toupper( ) 함수: 문자열의 대문자 소문자 변환 
 
 <해시맵> ★unordered_map 라이브러리★
+▶ count(키) 함수 -> 키에 해당하는 값이 있는지 없는지 판단.. return 1또는 0 (중복 허용x)
 
-▶ count( ) 함수
-
+<벡터> ★vector 라이브러리★
+출처: https://blockdmask.tistory.com/70
+▶ 맨앞, 맨뒤 iterator로 반환 ☞ begin(), end() ※ 벡터에서만 지원! 
+▶맨앞, 맨뒤 참조 ☞ front(), back()
+▶맨뒤 삭제 ☞ pop_back()
+▶특정 위치 삭제 ☞ erase(iter), erase(start, end+1) // 이터레이터 타입 들어감.
+출처: https://blockdmask.tistory.com/75
 
 <수학>
 ▶ next_permutation() 함수: n개 모두 서로 다를 경우에만 정확한 순열을 구해줌. ☞ algorithm 라이브러리
