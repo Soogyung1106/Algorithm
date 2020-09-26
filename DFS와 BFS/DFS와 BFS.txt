@@ -2,6 +2,8 @@
 ① DFS(깊이 우선 탐색)
 ② BFS(너비 우선 탐색)
 
+-> 모든 경우의 수(DFS), 미로찾기(DFS), 최단거리(BFS)
+
 ◆ DFS: 깊이 우선 탐색
 - 현재 정점에서 갈 수 있는 점들까지 들어가면서 탐색
 ☞ 구현 방법: 스택만 사용(방법1), 재귀함수만 사용(방법2)
@@ -9,11 +11,10 @@
 (1) 정점 N개로 구성된 이차원벡터(연결리스트)로 그래프 구현
 (2) dfs 탐색하면서 방문 여부 정점 개수 N크기의 visited[] 배열 사용
 
-
 (특징)
 - 깊이 우선 탐색(DFS)이 너비 우선 탐색(BFS)보다 좀 더 간단하다.
 - 단순 검색 속도 자체는 너비 우선 탐색(BFS)에 비해서 느리다.
-- 응용가능한 상황: 미로찾기
+- 대표유형: 미로찾기
 
 [출처]
 https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp
@@ -22,6 +23,7 @@ https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp
 ◆ BFS: 너비 우선 탐색
 - 인접한 노드들을 차례대로 방문하면서 탐색  
 ☞ 구현 방법: 큐로만 구현 가능
+- 대표유형: 최단거리
 
 [출처]
 https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp
