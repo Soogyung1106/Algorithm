@@ -16,6 +16,10 @@
 //주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
 ▶ begin(), end() 함수 ☞ vector 라이브러리, string 라이브러리
 
+<algorithm 라이브러리>
+▶ reverse() 함수 : 역순 정렬
+☞ sort 함수와 사용법 같음.
+▶ sort() 함수   
 
 <문자열> ★string 라이브러리★
 ▶ to_string() 함수 : int to string 
