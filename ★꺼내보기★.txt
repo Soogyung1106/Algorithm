@@ -20,6 +20,9 @@
 ▶ reverse() 함수 : 역순 정렬
 ☞ sort 함수와 사용법 같음.
 ▶ sort() 함수   
+▶ unique() 함수 : '연속'된 숫자 제거함. 하지만 남은 칸에 임의의 숫자로 채움. 
+☞ erase(unique(v.begin(), v.end()), v.end()); // unique 함수를 사용하고 나면 last 포인터가 작업한 곳으로 이동해있음. 
+▶sort() -> erase() + unique() 조합 : '중복'된 숫자 제거 가능.
 
 <문자열> ★string 라이브러리★
 ▶ to_string() 함수 : int to string 
