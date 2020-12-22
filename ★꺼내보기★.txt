@@ -20,7 +20,7 @@
 <algorithm 라이브러리>
 ▶ reverse() 함수 : 역순 정렬
 ☞ sort 함수와 사용법 같음.
-▶ sort() 함수   
+▶ sort() 함수 : 벡터(배열)뿐만 아니라 스트링 하나의 문자열도 정렬 가능함!!
 ▶ unique() 함수 : '연속'된 숫자 제거함. 하지만 남은 칸에 임의의 숫자로 채움. 
 ☞ erase(unique(v.begin(), v.end()), v.end()); // unique 함수를 사용하고 나면 last 포인터가 작업한 곳으로 이동해있음. 
 ▶sort() -> erase() + unique() 조합 : '중복'된 숫자 제거 가능.
@@ -30,6 +30,8 @@
 ▶ to_string() 함수 : int to string 
 https://blockdmask.tistory.com/334
 ▶ stoi( ) 함수 : string to int  
+https://blockdmask.tistory.com/333
+▶ string to 자료형 
 https://blockdmask.tistory.com/333
 ▶ int num = s[i] - '0' : char to int
 ▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
