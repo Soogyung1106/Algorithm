@@ -11,9 +11,10 @@
 <자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 
 ▶ sort( ) 함수에서 compare함수, greater<int>(), less<int>() ☞ https://blockdmask.tistory.com/178
-▶ fill() 함수 ☞ algorithm 라이브러리
+▶ fill() 함수 ☞ algorithm 라이브러리 
 출처: https://twpower.github.io/121-usage-of-fill-function
-//주의사항: 시작과 끝요소, 채울 값 => 인자 총 3개 필요
+☞ 사용할 필요 x
+☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
 ▶ begin(), end() 함수 ☞ vector 라이브러리, string 라이브러리
 
 <algorithm 라이브러리>
@@ -70,5 +71,7 @@ https://blockdmask.tistory.com/307
 <헷갈리는 문법>
 ▶ 2차원 벡터 사용법 → https://leeeegun.tistory.com/3
 ▶ C++ 동적할당 → https://boycoding.tistory.com/205
+☞ 동적할당 할 필요 없이 벡터를 배열처럼 사용하면 된다. 
+☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
 
 
