@@ -31,8 +31,7 @@
 https://blockdmask.tistory.com/334
 ▶ stoi( ) 함수 : string to int  
 https://blockdmask.tistory.com/333
-▶ string 문자의 원소를 정수로 변환 ☞ int num = str[i] - '0';
-☞ string str(ch);
+▶ int num = s[i] - '0' : char to int
 ▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
 ☞ 근데 s.at(i) 이렇게 접근해도 되지만 s[i]로 접근해도 바로 '문자' 받아옴.
 ☞ https://m.blog.naver.com/PostView.nhn?blogId=kimjd921&logNo=40198075816&proxyReferer=https%3A%2F%2Fwww.google.com%2F
