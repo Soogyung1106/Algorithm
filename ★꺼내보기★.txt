@@ -20,7 +20,7 @@
 <algorithm 라이브러리>
 ▶ reverse() 함수 : 역순 정렬
 ☞ sort 함수와 사용법 같음.
-▶ sort() 함수 : 벡터(배열)뿐만 아니라 스트링 하나의 문자열도 정렬 가능함!!
+▶ sort() 함수 : '벡터', '배열' 뿐만 아니라 스트링 하나의 '문자열'도 정렬 가능함!!
 ▶ unique() 함수 : '연속'된 숫자 제거함. 하지만 남은 칸에 임의의 숫자로 채움. 
 ☞ erase(unique(v.begin(), v.end()), v.end()); // unique 함수를 사용하고 나면 last 포인터가 작업한 곳으로 이동해있음. 
 ▶sort() -> erase() + unique() 조합 : '중복'된 숫자 제거 가능.
@@ -48,6 +48,10 @@ https://rottk.tistory.com/entry/C-String
 	      ☞ erase(0, 4); 시작인덱스 부터 몇   개 삭제할지.
 ▶replace() 함수 ☞ 특정 문자열 대체 
 	         ☞ replace(index, 1, ""); 식으로 특정 문자 삭제로 응용 가능(index부터 1개의 문자를 대체)
+
+<문자열> ★cctype 라이브러리★ ※ctype.h C언어 라이브러리임※
+▶ isupper() 함수, islower() 함수 ☞ 대소문자 구별
+https://blog.naver.com/sharonichoya/220513886595
 
 <해시맵> ★unordered_map 라이브러리★
 ▶ count(키) 함수 -> 키에 해당하는 값이 있는지 없는지 판단.. return 1또는 0 (중복 허용x)
