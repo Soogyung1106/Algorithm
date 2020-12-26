@@ -26,6 +26,7 @@
 ▶sort() -> erase() + unique() 조합 : '중복'된 숫자 제거 가능.
 ▶find() ☞ string의 find 함수와 다름. 배열 혹은 벡터에서 원하는 값이 있는지 찾기.
            ☞ https://dkanxmstmdgml.tistory.com/m/59
+
 <문자열> ★string 라이브러리★
 ▶ to_string() 함수 : int to string 
 https://blockdmask.tistory.com/334
@@ -79,5 +80,7 @@ https://blockdmask.tistory.com/307
 ▶ C++ 동적할당 → https://boycoding.tistory.com/205
 ☞ 동적할당 할 필요 없이 벡터를 배열처럼 사용하면 된다. 
 ☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
+▶ 벡터 선언과 동시에 초기화 방법
+ → https://riptutorial.com/ko/cplusplus/example/1676/std----vector-%EC%B4%88%EA%B8%B0%ED%99%94%ED%95%98%EA%B8%B0
 
 
