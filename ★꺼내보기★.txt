@@ -52,6 +52,11 @@ https://rottk.tistory.com/entry/C-String
 ▶replace() 함수 ☞ 특정 문자열 대체 
 	         ☞ replace(index, 1, ""); 식으로 특정 문자 삭제로 응용 가능(index부터 1개의 문자를 대체)
 
+★ 문자와 숫자 형변환 
+C++ <string> -> stoi() 인자로 string 자료형이 들어감
+C <string.h> -> atoi() 인자로 char형 배열이 들어감
+C, C++ -> char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
+
 <문자열> ★cctype 라이브러리★ ※ctype.h C언어 라이브러리임※
 ▶ isupper() 함수, islower() 함수 ☞ 대소문자 구별
 https://blog.naver.com/sharonichoya/220513886595
