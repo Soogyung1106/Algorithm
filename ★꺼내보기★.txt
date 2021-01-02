@@ -91,7 +91,7 @@ https://blockdmask.tistory.com/307
 ☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
 ▶ 벡터 선언과 동시에 초기화 방법
  → https://riptutorial.com/ko/cplusplus/example/1676/std----vector-%EC%B4%88%EA%B8%B0%ED%99%94%ED%95%98%EA%B8%B0
-▶pair 클래스 정렬
+▶ pair 클래스 정렬
 → https://withhamit.tistory.com/195
 ▶ auto for문 혹은 범위 for문 사용법 
 → https://blockdmask.tistory.com/319 
