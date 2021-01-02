@@ -95,4 +95,10 @@ https://blockdmask.tistory.com/307
 → https://withhamit.tistory.com/195
 ▶ auto for문 혹은 범위 for문 사용법 
 → https://blockdmask.tistory.com/319 
+▶ C++ 자료형 정리
+https://offbyone.tistory.com/115
+▶ 자료형의 확장과 축소
+https://dojang.io/mod/page/view.php?id=112
+
+★ 실행시간: ms x 0.001 = s
 
