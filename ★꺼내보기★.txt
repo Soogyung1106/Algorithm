@@ -4,6 +4,8 @@
 ▶ (힙 유형: Priority_Queue)  queue 라이브러리에서 지원 → https://travelbeeee.tistory.com/126
 ▶ (해시맵) unordered_map 라이브러리 → https://math-coding.tistory.com/m/31
 ▶ (set) set 라이브러리 → https://hwan-shell.tistory.com/130
+		     → map과 set의 차이점
+		         https://yoshiki.tistory.com/entry/STL%EC%9D%98-Set-Map-%EC%82%AC%EC%9A%A9
 ▶ (큐) queue 라이브러리 → https://travelbeeee.tistory.com/7
 ▶ (Pair 클래스) utility 라이 브러리 → https://blockdmask.tistory.com/64 
 ▶ (문자열)string 라이브러리 사용법 ☞ https://rottk.tistory.com/entry/C-String
@@ -39,7 +41,7 @@
 https://blockdmask.tistory.com/334
 ▶ stoi( ) 함수 : string to int  
 https://blockdmask.tistory.com/333
-▶ string to 자료형 
+▶ string to '자료형' : stoll 함수 
 https://blockdmask.tistory.com/333
 ▶ int num = s[i] - '0' : char to int
 ▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
