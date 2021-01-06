@@ -13,6 +13,7 @@
 				   ☞ https://blockdmask.tistory.com/338
 ▶algorithm 라이브러리 사용법 ☞ https://modoocode.com/256
 
+
 <자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 
 ▶ sort( ) 함수에서 compare함수, greater<int>(), less<int>() ☞ https://blockdmask.tistory.com/178
@@ -59,14 +60,17 @@ https://rottk.tistory.com/entry/C-String
 ▶replace() 함수 ☞ 특정 문자열 대체 
 	         ☞ replace(index, 1, ""); 식으로 특정 문자 삭제로 응용 가능(index부터 1개의 문자를 대체)
 
-★ 문자와 숫자 형변환 
+<문자와 숫자 형변환> 
 C++ <string> -> stoi() 인자로 string 자료형이 들어감
 C <string.h> -> atoi() 인자로 char형 배열이 들어감
 C, C++ -> char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
 
-<문자열> ★cctype 라이브러리★ ※ctype.h C언어 라이브러리임※
+<문자열> ★cctype 라이브러리(C언어)★ 
 ▶ isupper() 함수, islower() 함수 ☞ 대소문자 구별
 https://blog.naver.com/sharonichoya/220513886595
+
+<문자열 토큰 분리> ★sstream 라이브러리★
+☞ https://geekhub.tistory.com/63  //이대로 쓰면 됨.!
 
 <해시맵> ★unordered_map 라이브러리★
 ▶ count(키) 함수 -> 키에 해당하는 값이 있는지 없는지 판단.. return 1또는 0 (중복 허용x)
