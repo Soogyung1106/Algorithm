@@ -63,9 +63,11 @@ https://rottk.tistory.com/entry/C-String
 	         ☞ replace(index, 1, ""); 식으로 특정 문자 삭제로 응용 가능(index부터 1개의 문자를 대체)
 
 <문자와 숫자 형변환> 
-C++ <string> -> stoi() 인자로 string 자료형이 들어감
-C <string.h> -> atoi() 인자로 char형 배열이 들어감
-C, C++ -> char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
+- string to int ☞ <string> stoi() 인자로 string 자료형이 들어감
+- int to string ☞ <string> to_string() 인자로 int 자료형이 들어감.
+- char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
+- int to char  -> char c = (char)(i+48); //i가 정수
+- array to int ☞ <string.h> atoi() 인자로 char형 배열이 들어감
 
 <문자열> ★cctype 라이브러리(C언어)★ 
 ▶ isupper() 함수, islower() 함수 ☞ 대소문자 구별
@@ -87,8 +89,10 @@ https://blog.naver.com/sharonichoya/220513886595
 ▶ 모든 요소 삭제 ☞ clear(); 
 
 <수학>
-▶ next_permutation() 함수: n개 모두 서로 다를 경우에만 정확한 순열을 구해줌. ☞ algorithm 라이브러리
+▶ 순열 next_permutation() 함수 ☞ algorithm 라이브러리
 https://twpower.github.io/82-next_permutation-and-prev_permutation
+▶ 조합 : nex_permutation() 함수와 0과 1을 기록하는 배열 이용
+https://twpower.github.io/90-combination-by-using-next_permutation
 ▶ pow( ) 함수,  sqrt( ) 함수 ☞ cmath 라이브러리 
 https://blockdmask.tistory.com/307
 ▶ max_element(), min_element() ☞ algorithm 라이브러리 : 최대, 최소 값 혹은 주소 구하기
@@ -115,5 +119,7 @@ https://dojang.io/mod/page/view.php?id=112
 https://dojang.io/mod/page/view.php?id=173
 ▶ 이터레이터 사용법
 https://eehoeskrap.tistory.com/263
+▶ shift 연산자 사용법
+https://hahahia.tistory.com/115
 ★ 실행시간: ms x 0.001 = s
 
