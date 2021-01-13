@@ -9,8 +9,8 @@
 ▶ (큐) queue 라이브러리 → https://travelbeeee.tistory.com/7
 ▶ (Pair 클래스) utility 라이 브러리 → https://blockdmask.tistory.com/64 
 ▶ (문자열)string 라이브러리 사용법 ☞ https://rottk.tistory.com/entry/C-String
-				   ☞ https://jhnyang.tistory.com/115
-				   ☞ https://blockdmask.tistory.com/338
+			         ☞ https://jhnyang.tistory.com/115
+			         ☞ https://blockdmask.tistory.com/338
 ▶algorithm 라이브러리 사용법 ☞ https://modoocode.com/256
 
 
@@ -39,13 +39,6 @@
 ☞ https://torbjorn.tistory.com/265
 
 <문자열> ★string 라이브러리★
-▶ to_string() 함수 : int to string 
-https://blockdmask.tistory.com/334
-▶ stoi( ) 함수 : string to int  
-https://blockdmask.tistory.com/333
-※"0010"같은 것도 숫자로 변환해준다!※
-▶ string to '자료형' : stoll 함수 
-https://blockdmask.tistory.com/333
 ▶ int num = s[i] - '0' : char to int
 ▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
 ☞ 근데 s.at(i) 이렇게 접근해도 되지만 s[i]로 접근해도 바로 '문자' 받아옴.
@@ -62,12 +55,23 @@ https://rottk.tistory.com/entry/C-String
 ▶replace() 함수 ☞ 특정 문자열 대체 
 	         ☞ replace(index, 1, ""); 식으로 특정 문자 삭제로 응용 가능(index부터 1개의 문자를 대체)
 
-<문자와 숫자 형변환> 
-- string to int ☞ <string> stoi() 인자로 string 자료형이 들어감
-- int to string ☞ <string> to_string() 인자로 int 자료형이 들어감.
+<문자열 형변환> 
+- string to int 
+☞ <string> stoi() 인자로 string 자료형이 들어감
+☞ https://blockdmask.tistory.com/333
+※"0010"같은 것도 숫자로 변환해준다!※
+- string to '자료형' : stoll 함수 
+☞ https://blockdmask.tistory.com/333
+- int to string 
+☞ <string> to_string() 인자로 int 자료형이 들어감.
+☞ https://blockdmask.tistory.com/334
 - char to int 아스키코드 이용하여 int num = arr[0]-'0'; 
-- int to char  -> char c = (char)(i+48); //i가 정수
-- array to int ☞ <string.h> atoi() 인자로 char형 배열이 들어감
+- int to char  
+☞ char c = (char)(i+48); // i가 정수
+- array to int 
+☞ <string.h> atoi() 인자로 char형 배열이 들어감
+- char to string 
+☞ https://shjz.tistory.com/91
 
 <문자열> ★cctype 라이브러리(C언어)★ 
 ▶ isupper() 함수, islower() 함수 ☞ 대소문자 구별
@@ -123,5 +127,8 @@ https://dojang.io/mod/page/view.php?id=173
 https://eehoeskrap.tistory.com/263
 ▶ shift 연산자 사용법
 https://hahahia.tistory.com/115
+▶ unordered_map에서 키가 있는지 검색하는 법. -> find함수 혹은 count함수 사용
+https://umbum.tistory.com/744
 ★ 실행시간: ms x 0.001 = s
-
+▶ N진수 / N진법 관련
+https://codedragon.tistory.com/1241
