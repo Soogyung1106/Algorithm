@@ -22,7 +22,7 @@ https://twpower.github.io/73-how-to-implement-dfs-and-bfs-in-cpp
 
 ◆ BFS: 너비 우선 탐색
 - 인접한 노드들을 차례대로 방문하면서 탐색  
-☞ 구현 방법: 큐로만 구현 가능
+☞ 구현 방법: 큐로만 구현(재귀 사용X)
 - 대표유형: 최단거리
 
 [출처]
