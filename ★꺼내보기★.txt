@@ -8,6 +8,8 @@
 ▶ (힙)Priority_Queue → queue 라이브러리에서 지원
 		  ☞ https://travelbeeee.tistory.com/126
 		  ☞ https://koosaga.com/9 (greater, less, compare 사용시 주의)
+▶ (힙)Algorithm 라이브러리 → heap 관련 함수들 활용하는 방법도 있음.!
+		           ☞ https://openmynotepad.tistory.com/35
 ▶ (Pair 클래스) utility 라이 브러리 → https://blockdmask.tistory.com/64 
 ▶ (문자열)string 라이브러리 사용법 ☞ https://rottk.tistory.com/entry/C-String
 			         ☞ https://jhnyang.tistory.com/115
@@ -93,7 +95,8 @@ https://blog.naver.com/sharonichoya/220513886595
 ▶특정 위치 삭제 ☞ erase(iter), erase(start, end+1) // 이터레이터 타입 들어감.
 출처: https://blockdmask.tistory.com/75
 ▶ 모든 요소 삭제 ☞ clear(); 
-
+▶ 벡터 크기 지정 ☞ resize();
+ 
 <수학>
 ▶ 순열 next_permutation() 함수 ☞ algorithm 라이브러리
 https://twpower.github.io/82-next_permutation-and-prev_permutation
