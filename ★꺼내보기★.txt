@@ -41,6 +41,8 @@
 ☞ https://dkanxmstmdgml.tistory.com/m/59
 ※ 원하는 요소의 인자 찾기 
 ☞ https://torbjorn.tistory.com/265
+▶swap(a, b) 
+☞ a와 b를 바꾸는 함수 //이미 algorithm 라이브러리에 구현돼 있음.
 
 <문자열> ★string 라이브러리★
 ▶ int num = s[i] - '0' : char to int
@@ -95,7 +97,8 @@ https://blog.naver.com/sharonichoya/220513886595
 ▶특정 위치 삭제 ☞ erase(iter), erase(start, end+1) // 이터레이터 타입 들어감.
 출처: https://blockdmask.tistory.com/75
 ▶ 모든 요소 삭제 ☞ clear(); 
-▶ 벡터 크기 지정 ☞ resize();
+▶ 벡터 크기 지정 ☞ resize(n); //n의 크기로 지정 
+	           ☞ resize(n, x); //n의 크기를 x값으로 초기화 
  
 <수학>
 ▶ 순열 next_permutation() 함수 ☞ algorithm 라이브러리
