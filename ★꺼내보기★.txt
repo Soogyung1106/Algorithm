@@ -137,6 +137,20 @@ https://eehoeskrap.tistory.com/263
 https://hahahia.tistory.com/115
 ▶ unordered_map에서 키가 있는지 검색하는 법. -> find함수 혹은 count함수 사용
 https://umbum.tistory.com/744
-★ 실행시간: ms x 0.001 = s
 ▶ N진수 / N진법 관련
 https://codedragon.tistory.com/1241
+
+<시간복잡도>
+▶ 연산 1억번 수행시간= 1초
+▶ 실행시간: ms x 0.001 = s
+▶ STL의 시간복잡도
+♣ map, set 
+☞ 삽입, 삭제, 탐색 모두 O(logN)
+※ map과 set은 Red-Black Tree(이진 탐색 트리의 일종)으로 구현되어 있기 때문. 
+https://gnaseel.tistory.com/10
+♣ list 
+☞ '지정된 위치'를 삽입, 삭제하는 것은 O(1)
+☞ 탐색, 임의원소 접근 O(n)  
+♣ vector 
+☞ 삽입, 삭제, 탐색 모두 O(n)
+☞ 임의원소 접근 O(1) 
