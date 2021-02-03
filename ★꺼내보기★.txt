@@ -1,8 +1,14 @@
 <라이브러리 사용법>
 ▶ (스택)stack 라이브러리 → https://m.blog.naver.com/PostView.nhn?blogId=kkj6369&logNo=220807809941&proxyReferer=https:%2F%2Fwww.google.com%2F
 ▶ (해시맵) unordered_map 라이브러리 → https://math-coding.tistory.com/m/31
+                                                    	 → ※ 해시 vs 해시테이블 vs 해시맵
+				     https://hee96-story.tistory.com/48
+▶ (맵) map 라이브러리 → https://twpower.github.io/91-how-to-use-map-in-cpp
+	                   → map(맵)과 unorderd_map(해시맵) 의 차이점
+	                      둘이 사용법은 비슷하지만 구현된 자료구조가 다름.! 데이터 수에 따라 효율성 차이 있음.!
+		        https://lessbutbetter.tistory.com/entry/STL-map-%EA%B3%BC-unorderedmap-%EC%B0%A8%EC%9D%B4%EB%8A%94
 ▶ (집합) set 라이브러리 → https://hwan-shell.tistory.com/130
-		     → map과 set의 차이점
+		       → map과 set의 차이점
 		         https://yoshiki.tistory.com/entry/STL%EC%9D%98-Set-Map-%EC%82%AC%EC%9A%A9
 ▶ (큐) queue 라이브러리 https://travelbeeee.tistory.com/7
 ▶ (힙)Priority_Queue → queue 라이브러리에서 지원
@@ -43,6 +49,11 @@
 ☞ https://torbjorn.tistory.com/265
 ▶swap(a, b) 
 ☞ a와 b를 바꾸는 함수 //이미 algorithm 라이브러리에 구현돼 있음.
+☞ https://ldgeao99.tistory.com/273
+▶ lower_bound() 함수 : 이진 탐색 기반의 탐색법
+☞ 배열에서 x이상인 것들의 개수 구해야 하는 상황에서 많이 쓰임.
+☞ https://blockdmask.tistory.com/168
+
 
 <문자열> ★string 라이브러리★
 ▶ int num = s[i] - '0' : char to int
@@ -147,6 +158,7 @@ https://codedragon.tistory.com/1241
 ♣ map, set 
 ☞ 삽입, 삭제, 탐색 모두 O(logN)
 ※ map과 set은 Red-Black Tree(이진 탐색 트리의 일종)으로 구현되어 있기 때문. 
+※ unordered_map은 해시 방식으로 구현됨. (map과의 차이점.)
 https://gnaseel.tistory.com/10
 ♣ list 
 ☞ '지정된 위치'를 삽입, 삭제하는 것은 O(1)
