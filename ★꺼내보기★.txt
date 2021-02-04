@@ -166,3 +166,5 @@ https://gnaseel.tistory.com/10
 ♣ vector 
 ☞ 삽입, 삭제, 탐색 모두 O(n)
 ☞ 임의원소 접근 O(1) 
+♣ algorithm의 sort 함수
+☞ 퀵 소트 기반으로 구현된 함수이므로 O(nlogN)
