@@ -1,2 +1,3 @@
 ▶ MAX, MIN 함수 → https://extbrain.tistory.com/55 
 ▶ ORDER BY 테이블 조회 정렬 → https://extbrain.tistory.com/51
+☞ ASC 순차 정렬, DESC 역순  정렬
