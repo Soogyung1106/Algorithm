@@ -22,7 +22,8 @@
 			         ☞ https://blockdmask.tistory.com/338
 ▶ vector 라이브러리 → https://twpower.github.io/77-how-to-use-vector-in-cpp
 ▶ algorithm 라이브러리 사용법 ☞ https://modoocode.com/256
-
+▶ tuple 라이브러리 사용법 ☞ https://jjeongil.tistory.com/148
+                                      ☞ 큐와 튜플을 함께 사용하는 방법: https://cocoze.tistory.com/3
 
 <자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 
@@ -130,6 +131,8 @@ https://blockdmask.tistory.com/307
 ☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
 ▶ 2차원 벡터 resize 및 초기화 방법
 https://m.blog.naver.com/PostView.nhn?blogId=khndhkx123&logNo=221858234269&proxyReferer=https:%2F%2Fwww.google.com%2F
+▶ 3차원 벡터 resize 및 초기화 방법
+https://noel-embedded.tistory.com/811
 ▶ 벡터 선언과 동시에 초기화 방법
  → https://riptutorial.com/ko/cplusplus/example/1676/std----vector-%EC%B4%88%EA%B8%B0%ED%99%94%ED%95%98%EA%B8%B0
 ▶ pair 클래스 정렬
