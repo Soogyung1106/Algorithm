@@ -16,14 +16,14 @@
 		  ☞ https://koosaga.com/9 (greater, less, compare 사용시 주의)
 ▶ (힙)Algorithm 라이브러리 → heap 관련 함수들 활용하는 방법도 있음.!
 		           ☞ https://openmynotepad.tistory.com/35
-▶ (Pair 클래스) utility 라이 브러리 → https://blockdmask.tistory.com/64 
+▶ (Pair 클래스) utility 라이브러리 → https://blockdmask.tistory.com/64 
 ▶ (문자열)string 라이브러리 사용법 ☞ https://rottk.tistory.com/entry/C-String
 			         ☞ https://jhnyang.tistory.com/115
 			         ☞ https://blockdmask.tistory.com/338
-▶ vector 라이브러리 → https://twpower.github.io/77-how-to-use-vector-in-cpp
-▶ algorithm 라이브러리 사용법 ☞ https://modoocode.com/256
-▶ tuple 라이브러리 사용법 ☞ https://jjeongil.tistory.com/148
-                                      ☞ 큐와 튜플을 함께 사용하는 방법: https://cocoze.tistory.com/3
+▶ (vector) 라이브러리 → https://twpower.github.io/77-how-to-use-vector-in-cpp
+▶ (algorithm) 라이브러리 사용법 ☞ https://modoocode.com/256
+▶ (tuple) 라이브러리 사용법 ☞ https://jjeongil.tistory.com/148
+                                       ☞ 큐와 튜플을 함께 사용하는 방법: https://cocoze.tistory.com/3
 
 <자주 사용하는 함수 사용법>
 ▶ sort() 함수 ☞ algorithm 라이브러리 

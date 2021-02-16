@@ -25,4 +25,8 @@ EX) 2의 n제곱 -> n의 시간복잡도로 줄임. 메모이제이션이 DP의 
 출처1: https://medium.com/@wooder2050/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95-dynamic-programming-%EC%A0%95%EB%A6%AC-58e1dbcb80a0
 출처2: https://velog.io/@polynomeer/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95Dynamic-Programming
 
+☞ "부분문제반복"과 "최적부분구조"
+[참고]
+https://thisblogfor.me/algorithm/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/
+
 
