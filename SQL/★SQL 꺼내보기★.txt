@@ -1,0 +1,11 @@
+▶ MAX, MIN 함수 → https://extbrain.tistory.com/55 
+▶ ORDER BY 테이블 조회 정렬 → https://extbrain.tistory.com/51
+☞ ASC 순차 정렬, DESC 역순  정렬
+▶ ORDER BY → https://mingggu.tistory.com/83
+☞ 다중정렬, 여러가지 기준으로 정렬시 사용, 앞에 온 것들일수록 우선순위가 높은 것.  
+▶ != 또는 <> → https://wakestand.tistory.com/1 
+☞ WHEREE  절에서 ~조건이 아닌 경우 활용
+▶ LIMIT → https://winmargo.tistory.com/54
+☞ 상위 N개의 레코드만 출력. (상위 몇 번 레코드부터 N개 출력)
+▶ IS NULL, IS NOT NULL  
+☞ NULL 여부를 검사(WHERE 절에서) 
