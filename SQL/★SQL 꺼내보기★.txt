@@ -1,11 +1,36 @@
+♣ MySQL 기본 문법
+→ http://www.tcpschool.com/mysql/mysql_basic_syntax
+♣ SELECT관련 
+→ http://www.tcpschool.com/mysql/mysql_basic_select
+
 ▶ MAX, MIN 함수 → https://extbrain.tistory.com/55 
 ▶ ORDER BY 테이블 조회 정렬 → https://extbrain.tistory.com/51
 ☞ ASC 순차 정렬, DESC 역순  정렬
 ▶ ORDER BY → https://mingggu.tistory.com/83
 ☞ 다중정렬, 여러가지 기준으로 정렬시 사용, 앞에 온 것들일수록 우선순위가 높은 것.  
 ▶ != 또는 <> → https://wakestand.tistory.com/1 
-☞ WHEREE  절에서 ~조건이 아닌 경우 활용
+☞ WHERE  절에서 ~조건이 아닌 경우 활용
 ▶ LIMIT → https://winmargo.tistory.com/54
 ☞ 상위 N개의 레코드만 출력. (상위 몇 번 레코드부터 N개 출력)
 ▶ IS NULL, IS NOT NULL  
-☞ NULL 여부를 검사(WHERE 절에서) 
+☞ NULL 여부를 검사(WHERE 절에서)
+▶ IFNULL(컬럼명, NULL 시 값) → https://wakestand.tistory.com/44
+☞ 특정 컬럼에서 NULL 값일 경우
+※ 뒤에 AS (별칭)을 반드시 붙여줘야 함. 안 그러면 "IFNULL(컬럼명, NULL 시 대체값)" 그대로 출력됨. 
+▶ 컬럼명 AS 별칭 → https://makand.tistory.com/entry/SQL-ASAliases-%EA%B5%AC%EB%AC%B8
+☞ AS = Alias(별칭) 컬럼명을 별칭으로 바꿔서 출력함.
+☞ 정해준 이름으로 쿼리 안에서 계속 사용 가능함.
+▶ COUNT(컬럼)  / COUNT(*) → https://extbrain.tistory.com/54
+☞ 컬럼 데이터 갯수 가져오기
+☞ 전체 행 갯수 가져오기
+▶ DISTINCT 컬럼 
+☞ 필드 내 중복되는 값(레코드) 제거
+☞ 컬럼 앞에 붙여서 사용 
+ex) SELECT COUNT(DISTINCT NAME) ..
+
+
+
+
+
+
+
