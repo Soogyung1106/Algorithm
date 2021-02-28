@@ -57,6 +57,9 @@
 
 
 <문자열> ★string 라이브러리★
+▶ getline 함수 ☞ string으로 공백 있는 문자열 입력 x 
+	        ☞ 그 해결책: getline!! https://modoocode.com/236
+	        ※ 하지만 getline 앞에 >> 연산자 cin으로 입력받았다면? getchar!! https://modoocode.com/44
 ▶ int num = s[i] - '0' : char to int
 ▶ at( ) 함수: 문자열의 요소를 '문자'로 바꿔줌 ☞ https://makerj.tistory.com/127
 ☞ 근데 s.at(i) 이렇게 접근해도 되지만 s[i]로 접근해도 바로 '문자' 받아옴.
@@ -125,6 +128,8 @@ https://blockdmask.tistory.com/307
 // 주의사항 인자 2개만 비교 가능
 
 <헷갈리는 문법>
+▶switch case문 → 
+https://dojang.io/mod/page/view.php?id=196
 ▶ C/C++ 입출력 방법에 따른 속도 →
 https://eine.tistory.com/entry/CC-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EB%B0%A9%EB%B2%95%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%86%8D%EB%8F%84-%EC%A0%95%EB%A6%AC
 ▶ memset 함수 사용법 → https://blockdmask.tistory.com/441
