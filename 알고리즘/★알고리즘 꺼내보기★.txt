@@ -128,8 +128,8 @@ https://blockdmask.tistory.com/307
 // 주의사항 인자 2개만 비교 가능
 
 <헷갈리는 문법>
-▶switch case문 → 
-https://dojang.io/mod/page/view.php?id=196
+▶C++ 소수점 자릿수 조절하기 → https://pmoncode.tistory.com/20
+▶switch case문 → https://dojang.io/mod/page/view.php?id=196
 ▶ C/C++ 입출력 방법에 따른 속도 →
 https://eine.tistory.com/entry/CC-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EB%B0%A9%EB%B2%95%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%86%8D%EB%8F%84-%EC%A0%95%EB%A6%AC
 ▶ memset 함수 사용법 → https://blockdmask.tistory.com/441
