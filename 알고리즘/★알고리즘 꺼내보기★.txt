@@ -128,6 +128,11 @@ https://blockdmask.tistory.com/307
 // 주의사항 인자 2개만 비교 가능
 
 <헷갈리는 문법>
+▶long long형의 의미
+http://mwultong.blogspot.com/2007/01/c-long-long-printf-int64.html
+- int는 -20억~20억 크기의 숫자를 표현 가능 
+- long long은 조를 넘어 경 크깅의 숫자까지 표현 가능
+- int와 long long  둘다 int형
 ▶C++ 소수점 자릿수 조절하기 → https://pmoncode.tistory.com/20
 ▶switch case문 → https://dojang.io/mod/page/view.php?id=196
 ▶ C/C++ 입출력 방법에 따른 속도 →
