@@ -1,4 +1,5 @@
 <라이브러리 사용법>
+▶ (데크) deque 라이브러리 → https://blockdmask.tistory.com/73
 ▶ (스택)stack 라이브러리 → https://m.blog.naver.com/PostView.nhn?blogId=kkj6369&logNo=220807809941&proxyReferer=https:%2F%2Fwww.google.com%2F
 ▶ (해시맵) unordered_map 라이브러리 → https://math-coding.tistory.com/m/31
                                                     	 → ※ 해시 vs 해시테이블 vs 해시맵
