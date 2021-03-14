@@ -3,6 +3,18 @@
 ♣ SELECT관련 
 → http://www.tcpschool.com/mysql/mysql_basic_select
 
+▶ DATE_FORMAT(값, '원하는 포맷') → DATETIME TO DATE 형변환 
+☞ https://wakestand.tistory.com/47
+※ '%Y-%m-%d' 포맷 주의사항
+y: 2021에서 21로 출력 / Y: 2021 4글자 출력 / m: 영어로 월 출력 / M: 숫자로 월 출력 / D: 27th식으로 영어로 출력 / d: 숫자로 일 출력
+▶ UPPER(컬럼) → 대소문자 구분 x 
+☞ UPPER(ID)
+▶ 쿼리 조건문 → https://sdevstudy.tistory.com/14
+▶ LIKE '표현식'→ 특정 문자가 포함. 
+☞ 컬럼 LIKE '%S%'
+▶ IF → 조건에 따라서 해당 컬럼의 출력값이 다르게 출력됨.  
+☞ IF(컬럼 관련 조건 , '참일 때 출력값', '거짓일 때 출력값') 
+▶ AND, OR, IN, (WHERE)NOT 연산자 → https://inforyou.tistory.com/28
 ▶ MAX, MIN 함수 → https://extbrain.tistory.com/55 
 ▶ ORDER BY 테이블 조회 정렬 → https://extbrain.tistory.com/51
 ☞ ASC 순차 정렬, DESC 역순  정렬
