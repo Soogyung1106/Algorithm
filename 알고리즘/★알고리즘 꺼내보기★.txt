@@ -129,6 +129,8 @@ https://blockdmask.tistory.com/307
 // 주의사항 인자 2개만 비교 가능
 
 <헷갈리는 문법>
+▶freopen을 통해 testcase 입력 간단하게 
+https://gooddaytocode.blogspot.com/2016/04/freopen.html
 ▶long long형의 의미
 http://mwultong.blogspot.com/2007/01/c-long-long-printf-int64.html
 - int는 -20억~20억 크기의 숫자를 표현 가능 
