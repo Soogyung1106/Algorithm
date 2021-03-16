@@ -3,6 +3,14 @@
 ♣ SELECT관련 
 → http://www.tcpschool.com/mysql/mysql_basic_select
 
+▶ MySQL의 JOIN → https://hilucky.tistory.com/240
+- CROSS JOIN
+- INNER JOIN (내부조인)
+- LEFT JOIN, RIGHT JOIN (외부조인)
+※ JOIN의 종류(일반) → https://insomniachaos.tistory.com/202
+▶ HOUR → 시간만 반환해주는 함수 
+☞ HOUR(DATETIME 타입) 
+▶ GROUP BY → https://extbrain.tistory.com/56
 ▶ DATE_FORMAT(값, '원하는 포맷') → DATETIME TO DATE 형변환 
 ☞ https://wakestand.tistory.com/47
 ※ '%Y-%m-%d' 포맷 주의사항
