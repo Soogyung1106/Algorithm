@@ -11,6 +11,10 @@
 ♣ GROUP BY 
 → https://extbrain.tistory.com/56
 
+▶SET → 변수 만들기
+https://three-pleasure.tistory.com/256
+▶SELECT COUNT(*) FROM~  → 모든 필드를 검색한다.
+https://xe1.xpressengine.com/qna/1550790
 ▶ DATETIME 끼리는 =,  -, >, < 등의 연산이 가능하다!
 ▶ HOUR → 시간만 반환해주는 함수 
 ☞ HOUR(DATETIME 타입) 
