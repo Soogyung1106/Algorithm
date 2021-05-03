@@ -24,7 +24,7 @@ int solution(vector<string> lines) {
         int cnt = 1;
 
         for(int j = i + 1; j < v.size(); j++) {
-            if(start+1 >= v[j].first || end+1 > v[j].first) 
+            if(v[j].first - end < 1)
                 cnt++;
         }
         answer = max(answer, cnt);
