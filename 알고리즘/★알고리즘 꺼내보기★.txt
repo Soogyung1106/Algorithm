@@ -138,6 +138,10 @@ https://blockdmask.tistory.com/307
 ▶ min() 함수 ☞ https://m.blog.naver.com/kks227/220246545025 
 // 주의사항 인자 2개만 비교 가능
 
+<C++ 소수점 출력>
+C++의 cout을 사용해 소수점 출력시 주의사항.
+☞ https://atomic0x90.github.io/c++/2020/02/10/c++-decimal-place.html
+
 <헷갈리는 문법>
 ▶priority_queue에서는 맨 앞 front()가 아니라 맨 위(루트) top()이다!
 ▶map 혹은 set 이터레이터로 접근..!
