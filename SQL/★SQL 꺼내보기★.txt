@@ -25,7 +25,7 @@ y: 2021에서 21로 출력 / Y: 2021 4글자 출력 / m: 영어로 월 출력 / 
 ▶ UPPER(컬럼) → 대소문자 구분 x 
 ☞ UPPER(ID)
 ▶ 쿼리 조건문 → https://sdevstudy.tistory.com/14
-▶ LIKE '표현식'→ 특정 문자가 포함. 
+▶ LIKE '표현식' → 특정 문자가 포함. 
 ☞ 컬럼 LIKE '%S%'
 ▶ IF → 조건에 따라서 해당 컬럼의 출력값이 다르게 출력됨.  
 ☞ IF(컬럼 관련 조건 , '참일 때 출력값', '거짓일 때 출력값') 
@@ -53,11 +53,15 @@ y: 2021에서 21로 출력 / Y: 2021 4글자 출력 / m: 영어로 월 출력 / 
 ▶ DISTINCT 컬럼 
 ☞ 필드 내 중복되는 값(레코드) 제거
 ☞ 컬럼 앞에 붙여서 사용 
-ex) SELECT COUNT(DISTINCT NAME) ..
+ex) SELECT COUNT(DISTINCT NAME)
 
-
-
-
-
-
-
+♣ 헷갈리는 문법 ♣ 
+▶ ASC, DESC는 컬럼 뒤에 붙인다.
+☞ ORDER BY 컬럼 ASC
+▶ LIMIT은 SELECT와 같은 절에 쓰면 오류 뜬다. 
+다른 줄에 따로 분리해줘서 써야 함.
+▶ SELECT 절의 컬럼에 집계함수 COUNT( ), MAX( ), MIN( )와 DISTINCT씌울 수 있음.!
+▶ DISTICT는 집계함수가 아니기 때문에 컬럼 앞에 써주기만 하면 된다. 
+ex) SELECT DISTINCT NAME
+ex) SELECT COUNT(DISTINCT NAME)
+▶ 데이터 비교는 =, != / NULL은 IS 혹은 IS NOT

@@ -59,12 +59,15 @@ https://codingdog.tistory.com/entry/%EB%B0%B0%EC%97%B4-%ED%9A%8C%EC%A0%84-%EC%95
 ▶ swap(a, b) 
 ☞ a와 b를 바꾸는 함수 //이미 algorithm 라이브러리에 구현돼 있음.
 ☞ https://ldgeao99.tistory.com/273
-▶ lower_bound() 함수 : 이진 탐색 기반의 탐색법
-☞ 배열에서 x이상인 것들의 개수 구해주는 함수.
-☞ https://blockdmask.tistory.com/168
+▶ lower_bound() 함수 
+: 배열에서 'x 이상'인 첫 번째 원소의 위치를 반환하는 함수
 ▶ upper_bound() 함수
-☞ 배열에서 x 초과인 것들의 개수 구해주는 함수.
-※ 배열에서 x의 등장 횟수 : upper_bound() - lower_bound()
+: 배열에서 'x 초과'인 첫 번째 원소의 위치를 반환하는 함수
+※ 주의 ※ 
+- 이진 탐색 기반의 탐색법 → 따라서 정렬이 된 상태에서 호출해야 함.
+- 반환값은 이터레이터(벡터의 경우) 혹은 포인터임(의 경우). 
+- 배열에서 x의 등장 횟수 : upper_bound() - lower_bound()
+☞ https://blockdmask.tistory.com/168
 
 <cstring 라이브러리> 
 ▶ memset ☞ 메모리 초기화 함수
@@ -124,9 +127,9 @@ https://blog.naver.com/sharonichoya/220513886595
 <벡터> ★vector 라이브러리★
 출처: https://blockdmask.tistory.com/70
 ▶ 맨앞, 맨뒤 iterator로 반환 ☞ begin(), end() ※ 벡터랑 스트링에서 지원! 
-▶맨앞, 맨뒤 참조 ☞ front(), back()
-▶맨뒤 삭제 ☞ pop_back()
-▶특정 위치 삭제 ☞ erase(iter), erase(start, end+1) // 이터레이터 타입 들어감.
+▶ 맨앞, 맨뒤 참조 ☞ front(), back()
+▶ 맨뒤 삭제 ☞ pop_back()
+▶ 특정 위치 삭제 ☞ erase(iter), erase(start, end+1) // 이터레이터 타입 들어감.
 출처: https://blockdmask.tistory.com/75
 ▶ 모든 요소 삭제 ☞ clear(); 
 ▶ 벡터 크기 지정 ☞ resize(n); //n의 크기로 지정 
@@ -179,15 +182,37 @@ http://mwultong.blogspot.com/2007/01/c-long-long-printf-int64.html
 - int와 long long  둘다 int형
 ▶ C++ 소수점 자릿수 조절하기 → https://pmoncode.tistory.com/20
 ▶ switch case문 → https://dojang.io/mod/page/view.php?id=196
-▶ C/C++ 입출력 방법에 따른 속도 →
-https://eine.tistory.com/entry/CC-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EB%B0%A9%EB%B2%95%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%86%8D%EB%8F%84-%EC%A0%95%EB%A6%AC
+▶ C/C++ 입출력 방법에 따른 속도 
+ios_base :: sync_with_stdio(false); 
+cin.tie(NULL); 
+cout.tie(NULL);
+
+→ https://eine.tistory.com/entry/CC-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EB%B0%A9%EB%B2%95%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%86%8D%EB%8F%84-%EC%A0%95%EB%A6%AC
 ▶ memset 함수 사용법 → https://blockdmask.tistory.com/441
 ▶ 2차원 벡터 사용법 → https://leeeegun.tistory.com/3
 ▶ C++ 동적할당 → https://boycoding.tistory.com/205
-☞ 동적할당 할 필요 없이 벡터를 배열처럼 사용하면 된다. 
+(1) 지역변수 
 ☞ vector<bool> v(n+1, true); //n+1 크기의 벡터를 true 값으로 채운다.
-▶ 2차원 벡터 resize 및 초기화 방법
-https://m.blog.naver.com/PostView.nhn?blogId=khndhkx123&logNo=221858234269&proxyReferer=https:%2F%2Fwww.google.com%2F
+(2) 전역변수 
+☞ resize 함수 사용
+
+▶ 2차원 벡터 resize 및 초기화 방법 ※주의※ 벡터배열은 이렇게 사용할 수 x 
+
+vector<vector<int>> list;
+int main()
+{
+    int N,M;
+    cin >> N >> M;
+    list.resize(N,vector<int>(M,0));
+    ......
+}
+
+☞ https://m.blog.naver.com/PostView.nhn?blogId=khndhkx123&logNo=221858234269&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+▶ 벡터 배열 VS 2차원 배열 
+☞ 벡터 배열 : vector<int> v[10];
+☞ 2차원 배열 : vector<vector<int>> v; 
+
 ▶ 3차원 벡터 resize 및 초기화 방법
 https://noel-embedded.tistory.com/811
 ▶ 벡터 선언과 동시에 초기화 방법
